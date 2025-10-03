@@ -1,21 +1,24 @@
 <?php
 
-namespace App\Http\Livewire\Steps;
+namespace App\Livewire\Steps;
 
 use Spatie\LivewireWizard\Components\StepComponent;
 
 class DeliveryAddressStepComponent extends StepComponent
 {
     public string $name = '';
+
     public string $street = '';
+
     public string $zip = '';
+
     public string $city = '';
 
     public array $rules = [
-        'name'=> 'required',
-        'street'=> 'required',
-        'zip'=> 'required',
-        'city'=> 'required',
+        'name' => 'required',
+        'street' => 'required',
+        'zip' => 'required',
+        'city' => 'required',
     ];
 
     public function submit()

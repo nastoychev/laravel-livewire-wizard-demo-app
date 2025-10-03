@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Steps;
+namespace App\Livewire\Steps;
 
 use Spatie\LivewireWizard\Components\StepComponent;
 
@@ -9,7 +9,7 @@ class CartStepComponent extends StepComponent
     public $amount = 1;
 
     public array $rules = [
-        'amount'=> ['numeric', 'min:1', 'max:5'],
+        'amount' => ['numeric', 'min:1', 'max:5'],
     ];
 
     public function submit()

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Steps;
+namespace App\Livewire\Steps;
 
 use Spatie\LivewireWizard\Components\StepComponent;
 

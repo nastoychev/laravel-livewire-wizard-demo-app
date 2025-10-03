@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
-use App\Http\Livewire\Steps\CartStepComponent;
-use App\Http\Livewire\Steps\ConfirmStepComponent;
-use App\Http\Livewire\Steps\DeliveryAddressStepComponent;
+use App\Livewire\Steps\CartStepComponent;
+use App\Livewire\Steps\ConfirmStepComponent;
+use App\Livewire\Steps\DeliveryAddressStepComponent;
 use App\Support\OrderWizardState;
 use Spatie\LivewireWizard\Components\WizardComponent;
 
